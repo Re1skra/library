@@ -22,9 +22,6 @@ class SquareEq extends LineEq implements EquationInterface {
         if($dis == 0) {
             return $this->x = array(-$b / (2 * $a));
         }
-        if($dis < 0) {
-            throw new OzhiginException('The equation has no solutions');
-        }
         throw new OzhiginException('No roots');
     }
 }

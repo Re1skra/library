@@ -23,5 +23,8 @@
         "psr-4": {
             "ozhigin\\": "ozhigin" 
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
